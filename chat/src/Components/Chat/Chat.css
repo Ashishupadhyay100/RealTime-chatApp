@@ -1,0 +1,83 @@
+.chatPage{
+ background-color: black;
+ height: 100vh;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.chatContainer{
+border: 2px solid white;
+height: 90%;
+width: 50%;
+}
+.header{
+ height: 10%;
+ width: 100%;
+ /* background: rgb(5, 100, 5); */
+ background: #065d55;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.header>h2{
+color: white;
+margin: 1.2vmax;
+font-size: 5vmin;
+}
+.header>a>img{
+height: 1.5rem;
+margin: 1.2vmax;    
+transition: all 0.3s;
+}
+.header>a>img:hover{
+ transform: scale(1.1);
+ cursor: pointer;
+}
+.chatBox{
+ height: 80%;
+ /* background-color:rgb(238, 225, 201); */
+ background-color:#e5ddd5;
+ overflow: auto;
+}
+.input{
+ height: 10%;
+/* border: 2px solid red; */
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-size: 10vwmax;
+background-color:rgb(238, 225, 201);
+}
+#inputtext{
+ /* height:75%; */
+ width: 90%;
+ border: none;
+ outline: none;
+ box-sizing: border-box;
+ margin: .3rem;
+ border-radius: 10px;
+ font-size: larger;
+ padding: .4rem;
+}
+#btn{
+    width: 15%;
+    margin: .3rem; 
+    outline: none;
+    border-radius: 5px;
+
+}
+#btn img{
+    /* height: 100%; */
+    width: 3vmax;
+    /* box-sizing: border-box; */
+    transition: all 0.3s;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(221, 241, 213);
+}
+#btn:hover img{
+    transform: translateX(10px) ;
+}

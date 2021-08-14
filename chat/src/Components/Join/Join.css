@@ -1,0 +1,63 @@
+.JoinPage{
+ background-color: rgb(222, 243, 236);
+ /* background-color: rgb(56, 52, 52) ; */
+ height: 100vh;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+.JoinContainer{
+    /* background-color:rgb(236, 219, 222) ; */
+    background-color: rgb(56, 52, 52) ;
+    border: 3px solid white;
+    height: 75%;
+    width: 60%;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.JoinContainer > img{
+   width: 10vmax;
+   margin-top: 5vh;
+}
+.JoinContainer > h1{
+   width: 50%;
+   color: white;
+   border-bottom: 4px solid white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 4%;
+   padding: 2.5vw;
+}
+#inputName{
+    width: 25vw;
+    height: 7vh;
+    font-size:x-large;
+    text-align: center;
+    padding: 1vh;
+    border-radius: 8px;
+    /* box-sizing: border-box; */
+}
+.btn{
+  width: 25vw;
+  height: 7vh;
+  margin: 4vh;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+.btn:hover {
+  background-color: #3e8e41
+}
+.btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

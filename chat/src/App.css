@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+}
+
+@media (max-aspect-ratio: 7/10){
+
+    .JoinContainer{
+        margin-top: 5vw !important;
+        width: 90% !important;   
+        outline: none !important;   
+    }
+    .JoinContainer > img{
+        width: 25vw !important;
+        margin-top: 20vw !important;
+     }
+     .JoinContainer > h1{
+        font-size: 7vw !important;
+        width: 55vw !important;
+        border-bottom: .6vw solid white !important;
+        margin: 9vw !important;
+     }
+     #inputName{
+        width: 50vw !important;
+        height: 7vw !important;
+        font-size:5vw !important;
+        padding: 3vw !important;
+    }
+    .btn{
+      width: 50vw !important;
+      height: 7vh !important;
+      font-size:5vw !important;
+    }
+    
+    .chatContainer{
+      height: 100% !important;
+      width: 100% !important;
+    }
+    .header>h2{
+      margin: 8vw !important;
+      font-size: 5vw !important;
+    }
+    .header>a>img{
+      height:1.2rem !important ;
+      margin: 8vw !important;
+    }
+    .header>a>img:hover{
+      transform: scale(2) !important;
+     }
+     .msgBox{
+        width : initial !important;
+        padding: 2vw !important;
+        margin: 1vw !important;
+        font-size: 5vw !important;
+    }
+   
+}   
