@@ -6,9 +6,9 @@ A real time woring Chat App using technolgies given below
 
 1. git clone https://github.com/Ashishupadhyay100/RealTime-chatApp
 
-2.Deployed(on netlify) chat app  [This is the Link](https://new-real-time-chat-app.netlify.app).
+2. Deployed(on netlify) chat app  [This is the Link](https://new-real-time-chat-app.netlify.app).
 
-3.Can try it with your peers : https://new-real-time-chat-app.netlify.app
+3. Can try it with your peers : https://new-real-time-chat-app.netlify.app
 
 
 ## Available Scripts
