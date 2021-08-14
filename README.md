@@ -1,5 +1,5 @@
 # RealTime-chatApp
-A complete Chat App using technolgies given below
+A real time woring Chat App using technolgies given below
 ## React,  Nodejs , Socket.io.
 
 ## OUTCOME
