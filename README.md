@@ -2,12 +2,13 @@
 A complete Chat App using technolgies given below
 ## React,  Nodejs , Socket.io.
 
-## SETUP
+## OUTCOME
 
 1. git clone https://github.com/Ashishupadhyay100/RealTime-chatApp
 
-Deployed(on netlify) chat app  [Thid is the Linke](https://new-real-time-chat-app.netlify.app).
+Deployed(on netlify) chat app  [This is the Link](https://new-real-time-chat-app.netlify.app).
 
+Can try it with your peers : https://new-real-time-chat-app.netlify.app
 
 ## Available Scripts
 
